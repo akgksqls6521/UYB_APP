@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg">
+    <ImageButton
+        android:layout_marginLeft="650dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/devel"
+        android:src="@drawable/developerbtn"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sound"
+        android:src="@drawable/soundonbtn"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="720dp"
+        android:background="@android:color/transparent"/>
+    <ImageButton
+        android:id="@+id/start"
+        android:layout_marginTop="980dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:src="@drawable/startbtn"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/closet"
+        android:layout_marginTop="980dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="400dp"
+        android:src="@drawable/closetbtn"
+        android:background="@android:color/transparent"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/cr"/>
+
+
+
+</RelativeLayout>

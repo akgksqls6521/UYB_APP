@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rela"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/pcbg"
+    tools:context="comakgksqls6521.httpsgithub.uyb_mapsi.MainActivity">
+
+    <ImageButton
+        android:id="@+id/topback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/topnext"
+        android:layout_marginLeft="680dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/next"
+        android:layout_marginTop="400dp"
+        android:background="@android:color/transparent"/>
+    <ImageButton
+        android:id="@+id/pantsback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="600dp"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/pantsnext"
+        android:layout_marginLeft="680dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/next"
+        android:layout_marginTop="600dp"
+        android:background="@android:color/transparent"/>
+
+    <ImageView
+        android:id="@+id/maneking"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/doll"
+        android:background="@android:color/transparent"/>
+    <ImageView
+    android:id="@+id/cth_pants"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"/>
+    <ImageView
+        android:id="@+id/cth_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"/>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Gallery
+        android:background="#55ffffff"
+        android:layout_marginTop="1000dp"
+        android:id="@+id/gallery_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spacing="5dp"/>
+
+</LinearLayout>
+    <ImageButton
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/completebtn"
+        android:background="@android:color/transparent"
+        android:id="@+id/but_1"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="완료"
+        />
+    <ImageButton
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="660dp"
+        android:src="@drawable/refreshbtn"
+        android:id="@+id/but_2"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="다시"/>
+
+</RelativeLayout>
